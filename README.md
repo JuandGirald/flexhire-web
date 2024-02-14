@@ -39,3 +39,14 @@ REACT_APP_CABLE_URL=ws://localhost:4001/cable
 When you open the webapp on your browser a modal is displayed requesting your Flexhire API key, once you provide it, a first fetch to API will be done, and cable subscription as well.
 
 > In order to modify the API key you can open that model again using the `Authorize` button on top right corner of the app or just reloading the page
+
+
+## Deploy
+
+By default this repo is deployed on github pages use following command to trigger a deploy
+
+```bash
+
+npm run deploy
+
+```
